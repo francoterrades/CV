@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: open, sans-serif;
+    margin: 0;
+    background-color: rgb(109, 109, 207);
+}
+.degrade {
+    background: linear-gradient(180deg, rgb(230, 230, 230), rgb(255, 255, 255));
+    margin: 0px 0px 100px 80px;
+    max-width: 100%;
+    height: auto;
+}
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 50px 50px 0px 50px;
+}
+.intro {
+    display: block;
+    margin: auto;
+}
+.Nom {
+    font-family: "Ubuntu";
+    font-weight:200;
+    font-size: 50px;
+    margin-bottom: 15px; background: linear-gradient(180deg, rgb(230, 230, 230), rgb(204, 201, 201));
+    padding: auto;
+}
+.Puesto {
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.Descripcion {
+    font-family: "Ubuntu";
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.icono {
+    max-width: 30px;
+    padding: auto;
+    margin: 10px;
+}
+.perfil {
+    max-width: 80%;
+    height: auto;
+    right: 20px;
+    padding: auto;
+}
+.caja {
+    background: linear-gradient(180deg, rgb(230, 230, 230), rgb(255, 255, 255));
+    border-radius: 20px;
+    height: auto;
+    max-width: 90%;
+    padding: 40px;
+    margin: 20px 20px 20px 80px;
+}
+.perfilprof {
+    background: linear-gradient(180deg, rgb(230, 230, 230), rgb(204, 201, 201));
+    font-weight:200;
+    font-size: 50px;
+    margin-bottom: 15px; 
+}
+.titulo {
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-size: 25px;
+    margin:0;
+    
+}
+.text {
+    font-family: "Ubuntu";
+    font-weight: 200;
+    font-size: 15px;
+    margin: 5;
+    padding: auto;
+}
+.botonera {
+    position: static;
+    left: 200px;
+    padding: auto;
+    border-color: darkgray;
+}
+.boton {
+    width: 50px;
+    display: block;
+    border-color: darkgray;
+    padding: auto;
+   
+}
+.vacio {
+    max-width: 90%;
+    height: 200px;
+    margin: 200px;
+}
